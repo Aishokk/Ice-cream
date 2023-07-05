@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/147d793a83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>eliks-icecream</title>
+    <style>
+        .swiper {
+          width: 90%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          background: transparent;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          object-fit: cover;
+        }
+        
+        .catalog-menu-item {
+          padding-left: 85px;
+        }
+    </style>
+
+    <style>
+        swiper-container {
+            width: 82%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        swiper-slide {
+        text-align: center;
+        background: transparent;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        }
+
+        swiper-slide img {
+        display: block;
+        object-fit: cover;
+        }
+
+        .page-4-images {
+            padding-left: 15px;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <!------------- KORZINA ---------------->
+    <div class="korzina" id="korzina" onclick="teleportToCheckOrder()">
+        <div class="title-korzina-1">Перейти в корзину</div>
+        <div class="title-korzina-2">Добавлено товаров (<span id="totalCount">0</span>)</div>
+    </div>
+      
+      
+    <!-------------MAIN STARTS--------------->
+    <div id="main" class="main">
+
+        <div class="main-nav-menu">
+            <div class="nav-menu-logo">
+                <img src="../ice-cream/images/Page 1.png" alt="">
+            </div>
+            <div class="navigation-menu">
+                <a href="#main"><p>Главная</p></a>
+                <a href="#welcome"><p>О нас</p></a>
+                <a href="#catalog"><p>Католог</p></a>
+                <a href="#constructor"><p>Собери свой трдельник</p></a>
+                <a href="#contacts"><p>Контакты</p></a>
+            </div>
+        </div>
+    
+        <div class="main-title">
+            <div class="main-title-1">Особенная выпечка.
+                <br/>
+                Трдельники.
+            </div>
+            <div class="main-title-2">
+                <img src="../ice-cream/images/spill 2.png" alt="">
+                <p>При покупке трдельника кофе в подарок!</p>
+            </div>
+        </div>
+
+        <div class="main-btn">
+            <a href="#catalog" class="btn">
+                <div class="catalog-btn">
+                    <p>Заказать уже сейчас</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="main-images">
+            <div class="img-1">
+                <img src="../ice-cream/images/004 1.png" alt="">
+            </div>
+            <div class="img-2">
+                <img src="../ice-cream/images/image 3.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <!-------------MAIN ENDS--------------->
+    <!-------------WELCOME STARTS--------------->
+    <div id="welcome" class="welcome">
+        <div class="welcome-photo">
+            <img src="../ice-cream/images/image 7.png" alt="">
+        </div>
+
+        <div class="welcome-text">
+            <div class="welcome-text-title"><div class="intro">Добро пожаловать в</div><div class="concl">Eliks!</div></div>
+            <div class="welcome-text-main">Меня зовут Еламан. Я и моя команда долго и тщательно отбирали рецепты самых вкусных и ярких мировых десертов. Хрустящие чешские трдельники, ароматные бельгийские вафли, воздушный испанский чизкейк - каждое из этих угощений как признание в любви к своему делу и к вам, друзья.
+            </div>
+            <div class="welcome-text-end">Приятного аппетита!</div>          
+        </div>
+    </div>
+    <!-------------WELCOME ENDS--------------->
+    <!-------------CATALOG STARTS--------------->
+    <div id="catalog" class="catalog">
+        <div class="catalog-title">
+            Католог товаров
+        </div>
+
+        <div class="catalog-line">
+            <div class="catalog-line-menu">
+                  <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p>
+                                <div id="1-content" class="catalog-menu-item">
+                                    <p>Трдельники</p>
+                                    <img src="../ice-cream/images/trdelnik 1.png" alt="">
+                                </div>
+                            </p>
+                
+                            <p>
+                                <div id="2-content" class="catalog-menu-item">
+                                    <p>Чимни-доги</p>
+                                    <img src="../ice-cream/images/чимни-дог.png" alt="">
+                                </div> 
+                            </p>
+                            
+                            <p>
+                                <div id="3-content" class="catalog-menu-item">
+                                    <p>Сэндвичи</p>
+                                    <img src="../ice-cream/images/сэндвичи.png" alt="">
+                                </div> 
+                            </p>
+                            
+                            <p>
+                                <div id="4-content" class="catalog-menu-item">
+                                    <p>Десерты</p>
+                                    <img src="../ice-cream/images/десерты.png" alt="">
+                                </div>
+                            </p>
+                            
+                            <p>
+                                <div id="5-content" class="catalog-menu-item">
+                                    <p>Напитки</p>
+                                    <img src="../ice-cream/images/напитки.png" alt="">
+                                </div>
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>
+                                <div id="6-content" class="catalog-menu-item">
+                                    <p>Круассаны</p>
+                                    <img src="../ice-cream/images/2 37.png" alt="">
+                                </div>
+                            </p>
+                            
+                            <p>
+                                <div id="7-content"  class="catalog-menu-item">
+                                    <p>Завтраки</p>
+                                    <img src="../ice-cream/images/22 1.png" alt="">
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                  <!-- Swiper JS -->
+                  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+                
+                  <!-- Initialize Swiper -->
+                  <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                      },
+                    });
+                  </script>
+                
+            </div>
+        </div>
+
+        <!---------------------------------------------------SECTION 1------------------------------------------------------------->
+        <div class="trdelnik-menu">
+
+            <div class="trdelnik-oreo">
+                <div class="container-1">
+                    <p>Трдельник Oreo</p>
+                    <div class="price-1">1490 $</div>
+                    <div class="trdelnik-oreo-btn" id="butn-1" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter1" class="counter">
+                        <button id="decrementBtn1" onclick="decrement('item1')">-</button>
+                        <span id="count1">1</span>
+                        <button id="incrementBtn1" onclick="increment('item1')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник.png" alt="">
+            </div>
+              
+
+            <div class="trdelnik-rafaello">
+                <div class="container-2">
+                    <p>Трдельник rafaello</p>
+                    <div class="price-2">1490 $</div>
+                    <div class="trdelnik-rafaello-btn" id="butn-2" onclick="buttonClick(this)" onmouseover="buttonHover(this)">
+                        Купить
+                    </div>
+                    <div id="counter2" class="counter">
+                        <button id="decrementBtn2" onclick="decrement('item2')">-</button>
+                        <span id="count2">1</span>
+                        <button id="incrementBtn2" onclick="increment('item2')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник2.png" alt="">
+            </div>
+
+            <div class="trdelnik-snickers">
+                <div class="container-3">
+                    <p>Трдельник snickers</p>
+                    <div class="price-3">1390 $</div>
+                    <div class="trdelnik-snickers-btn" id="butn-3" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter3" class="counter">
+                        <button id="decrementBtn3" onclick="decrement('item3')">-</button>
+                        <span id="count3">1</span>
+                        <button id="incrementBtn3" onclick="increment('item3')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник3.png" alt="">
+            </div>
+
+            <div class="fruit-trelnik">
+                <div class="container-4">
+                    <p>ягодный Трдельник </p> 
+                    <div class="price-4">1590 $</div>
+                    <div class="fruit-trelnik-btn" id="butn-4" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter4" class="counter">
+                        <button id="decrementBtn4" onclick="decrement('item4')">-</button>
+                        <span id="count4">1</span>
+                        <button id="incrementBtn4" onclick="increment('item4')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник4.png" alt="">
+            </div>
+
+            <div class="trdelnik-ekzo">
+                <div class="container-5">
+                    <p>Трдельник зкзотика</p>
+                    <div class="price-5">1590 $</div>
+                    <div class="trdelnik-ekzo-btn" id="butn-5" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter5" class="counter">
+                        <button id="decrementBtn5" onclick="decrement('item5')">-</button>
+                        <span id="count5">1</span>
+                        <button id="incrementBtn5" onclick="increment('item5')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник5.png" alt="">
+            </div>
+
+            <div class="trdelnik-mms">
+                <div class="container-6">
+                    <p>Трдельник m&m’s</p>
+                    <div class="price-6">1490 $</div>
+                    <div class="trdelnik-mms-btn" id="butn-6" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter6" class="counter">
+                        <button id="decrementBtn6" onclick="decrement('item6')">-</button>
+                        <span id="count6">1</span>
+                        <button id="incrementBtn6" onclick="increment('item6')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник6.png" alt="">
+            </div>
+
+            <div class="trdelnik-per">
+                <div class="container-7">
+                    <p>перевертыш</p>
+                    <div class="price-7">1590 $</div>
+                    <div class="trdelnik-per-btn" id="butn-7" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter7" class="counter">
+                        <button id="decrementBtn7" onclick="decrement('item7')">-</button>
+                        <span id="count7">1</span>
+                        <button id="incrementBtn7" onclick="increment('item7')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник7.png" alt="">
+            </div>
+
+            <div class="trdelnik-traditional">
+                <div class="container-8">
+                    <p>Традиционный</p>
+                    <div class="price-8">1000 $</div>
+                    <div class="trdelnik-traditional-btn" id="butn-8" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter8" class="counter">
+                        <button id="decrementBtn8" onclick="decrement('item8')">-</button>
+                        <span id="count8">1</span>
+                        <button id="incrementBtn8" onclick="increment('item8')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/трдельник8.png" alt="">
+            </div>
+
+        </div>
+
+        <!-----------------------------------------------SECTION 2-------------------------------------------------->
+        <div class="chimni-dogi-menu">
+
+            <div class="chicagski">
+                <div class="container-21">
+                    <p>чикагский</p>
+                    <div class="price-21">1390$</div>
+                    <div class="chicagski-btn" id="butn-21" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter21" class="counter">
+                        <button id="decrementBtn21" onclick="decrement('item21')">-</button>
+                        <span id="count21">1</span>
+                        <button id="incrementBtn21" onclick="increment('item21')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог1.png" alt="">
+            </div>
+
+            <div class="fire">
+                <div class="container-22">
+                    <p>огненный</p>
+                    <div class="price-22">1390$</div>
+                    <div class="fire-btn" id="butn-22" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter22" class="counter">
+                        <button id="decrementBtn22" onclick="decrement('item22')">-</button>
+                        <span id="count22">1</span>
+                        <button id="incrementBtn22" onclick="increment('item22')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-2.png" alt="">
+            </div>
+
+            <div class="firma">
+                <div class="container-23">
+                    <p>фирменный</p>
+                    <div class="price-23">1390$</div>
+                    <div class="firma-btn" id="butn-23" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter23" class="counter">
+                        <button id="decrementBtn23" onclick="decrement('item23')">-</button>
+                        <span id="count23">1</span>
+                        <button id="incrementBtn23" onclick="increment('item23')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-3.png" alt="">
+            </div>
+
+            <div class="ny">
+                <div class="container-24">
+                    <p>нью-йорк</p>
+                    <div class="price-24">1390$</div>
+                    <div class="ny-btn" id="butn-24" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter24" class="counter">
+                        <button id="decrementBtn24" onclick="decrement('item24')">-</button>
+                        <span id="count24">1</span>
+                        <button id="incrementBtn24" onclick="increment('item24')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-4.png" alt="">
+            </div>
+
+            <div class="classic">
+                <div class="container-25">
+                    <p>Классический</p>
+                    <div class="price-25">1490$</div>
+                    <div class="classic-btn" id="butn-25" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter25" class="counter">
+                        <button id="decrementBtn25" onclick="decrement('item25')">-</button>
+                        <span id="count25">1</span>
+                        <button id="incrementBtn25" onclick="increment('item25')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-5.png" alt="">
+            </div>
+
+            <div class="mix">
+                <div class="container-26">
+                    <p>микс чимни-дог</p>
+                    <div class="price-26">1590$</div>
+                    <div class="mix-btn" id="butn-26" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter26" class="counter">
+                        <button id="decrementBtn26" onclick="decrement('item26')">-</button>
+                        <span id="count26">1</span>
+                        <button id="incrementBtn26" onclick="increment('item26')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-6.png" alt="">
+            </div>
+
+        </div>
+
+        <!----------------------------------------------------SECTION 3------------------------------------------------------->
+        <div class="sandwiches-menu">
+
+            <div class="turkey">
+                <div class="container-31">
+                    <p>с индейкой </p>
+                    <div class="price-31">1290$</div>
+                    <div class="turkey-btn" id="butn-31" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter31" class="counter">
+                        <button id="decrementBtn31" onclick="decrement('item31')">-</button>
+                        <span id="count31">1</span>
+                        <button id="incrementBtn31" onclick="increment('item31')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/сендвич-1.png" alt="">
+            </div>
+
+            <div class="chicken">
+                <div class="container-32">
+                    <p>с курицей </p>
+                    <div class="price-32">1090$</div>
+                    <div class="chicken-btn" id="butn-32" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter32" class="counter">
+                        <button id="decrementBtn32" onclick="decrement('item32')">-</button>
+                        <span id="count32">1</span>
+                        <button id="incrementBtn32" onclick="increment('item32')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/сендвич-2.png" alt="">
+            </div>
+
+            <div class="mega1">
+                <div class="container-33">
+                    <p>мега сэндв. / курица</p>
+                    <div class="price-33">1590$</div>
+                    <div class="mega1-btn" id="butn-33" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter33" class="counter">
+                        <button id="decrementBtn33" onclick="decrement('item33')">-</button>
+                        <span id="count33">1</span>
+                        <button id="incrementBtn33" onclick="increment('item33')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/сендвич-3.png" alt="">
+            </div>
+
+            <div class="mega2">
+                <div class="container-34">
+                    <p>мега сэндв. / индейка</p>
+                    <div class="price-34">1690$</div>
+                    <div class="mega2-btn" id="butn-34" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter34" class="counter">
+                        <button id="decrementBtn34" onclick="decrement('item34')">-</button>
+                        <span id="count34">1</span>
+                        <button id="incrementBtn34" onclick="increment('item34')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/сендвич-4.png" alt="">
+            </div>
+
+        </div>
+        <!---------------------------------------------SECTION 4----------------------------------------------->
+        <div class="dessert-menu">
+
+            <div class="belgian-waffles-1">
+                <div class="container-41">
+                    <p>бельг. вафли 1</p>
+                    <div class="price-41">1200$</div>
+                    <div class="btn-41" id="butn-41" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter41" class="counter">
+                        <button id="decrementBtn41" onclick="decrement('item41')">-</button>
+                        <span id="count41">1</span>
+                        <button id="incrementBtn41" onclick="increment('item41')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-11.png" alt="">
+            </div>
+
+            <div class="belgian-waffles-2">
+                <div class="container-42">
+                    <p>бельг. вафли 2</p>
+                    <div class="price-42">1200$</div>
+                    <div class="btn-42" id="butn-42" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter42" class="counter">
+                        <button id="decrementBtn42" onclick="decrement('item42')">-</button>
+                        <span id="count42">1</span>
+                        <button id="incrementBtn42" onclick="increment('item42')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-12.png" alt="">
+            </div>
+
+            <div class="belgian-waffles-3">
+                <div class="container-43">
+                    <p>бельг. вафли 3</p>
+                    <div class="price-43">1200$</div>
+                    <div class="btn-43" id="butn-43" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter43" class="counter">
+                        <button id="decrementBtn43" onclick="decrement('item43')">-</button>
+                        <span id="count43">1</span>
+                        <button id="incrementBtn43" onclick="increment('item43')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-13.png" alt="">
+            </div>
+
+            <div class="yoghurt">
+                <div class="container-44">
+                    <p>йогурт</p>
+                    <div class="price-44">750$</div>
+                    <div class="btn-44" id="butn-44" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter44" class="counter">
+                        <button id="decrementBtn44" onclick="decrement('item44')">-</button>
+                        <span id="count44">1</span>
+                        <button id="incrementBtn44" onclick="increment('item44')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-14.png" alt="">
+            </div>
+
+            <div class="portuguese-tart">
+                <div class="container-45">
+                    <p>Португ. тарталетки</p>
+                    <div class="price-45">600$</div>
+                    <div class="btn-45" id="butn-45" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter45" class="counter">
+                        <button id="decrementBtn45" onclick="decrement('item45')">-</button>
+                        <span id="count45">1</span>
+                        <button id="incrementBtn45" onclick="increment('item45')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-15.png" alt="">
+            </div>
+
+            <div class="sirniki">
+                <div class="container-46">
+                    <p>сырники</p>
+                    <div class="price-46">600$</div>
+                    <div class="btn-46" id="butn-46" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter46" class="counter">
+                        <button id="decrementBtn46" onclick="decrement('item46')">-</button>
+                        <span id="count46">1</span>
+                        <button id="incrementBtn46" onclick="increment('item46')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-16.png" alt="">
+            </div>
+
+            <div class="mochi">
+                <div class="container-47">
+                    <p>моти</p>
+                    <div class="price-47">750$</div>
+                    <div class="btn-47" id="butn-47" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter47" class="counter">
+                        <button id="decrementBtn47" onclick="decrement('item47')">-</button>
+                        <span id="count47">1</span>
+                        <button id="incrementBtn47" onclick="increment('item47')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-17.png" alt="">
+            </div>
+
+            <div class="banofi-pai">
+                <div class="container-48">
+                    <p>банофи пай</p>
+                    <div class="price-48">800$</div>
+                    <div class="btn-48" id="butn-48" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter48" class="counter">
+                        <button id="decrementBtn48" onclick="decrement('item48')">-</button>
+                        <span id="count48">1</span>
+                        <button id="incrementBtn48" onclick="increment('item48')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/021 1.png" alt="">
+            </div>
+
+            <div class="cheesecake-ny-1">
+                <div class="container-49">
+                    <p>Чизкейк нью-йорк</p>
+                    <div class="price-49">950$</div>
+                    <div class="btn-49" id="butn-49" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter49" class="counter">
+                        <button id="decrementBtn49" onclick="decrement('item49')">-</button>
+                        <span id="count49">1</span>
+                        <button id="incrementBtn49" onclick="increment('item49')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/021 1-2.png" alt="">
+            </div>
+
+            <div class="zaxer">
+                <div class="container-410">
+                    <p>захер</p>
+                    <div class="price-410">750$</div>
+                    <div class="btn-410" id="butn-410" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter410" class="counter">
+                        <button id="decrementBtn410" onclick="decrement('item410')">-</button>
+                        <span id="count410">1</span>
+                        <button id="incrementBtn410" onclick="increment('item410')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/021 1-3.png" alt="">
+            </div>
+
+            <div class="san-sebastian">
+                <div class="container-411">
+                    <p>сан-себастьян</p>
+                    <div class="price-411">800$</div>
+                    <div class="btn-411" id="butn-411" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter411" class="counter">
+                        <button id="decrementBtn411" onclick="decrement('item411')">-</button>
+                        <span id="count411">1</span>
+                        <button id="incrementBtn411" onclick="increment('item411')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/0211 1.png" alt="">
+            </div>
+
+            <div class="chocolate-cheesecake">
+                <div class="container-412">
+                    <p>чизкейк шоколадн.</p>
+                    <div class="price-412">1200$</div>
+                    <div class="btn-412" id="butn-412" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter412" class="counter">
+                        <button id="decrementBtn412" onclick="decrement('item412')">-</button>
+                        <span id="count412">1</span>
+                        <button id="incrementBtn412" onclick="increment('item412')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/1 981.png" alt="">
+            </div>
+
+            <div class="strawberry-cheesecake">
+                <div class="container-413">
+                    <p>чизкейк клубничн.</p>
+                    <div class="price-413">1200$</div>
+                    <div class="btn-413" id="butn-413" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter413" class="counter">
+                        <button id="decrementBtn413" onclick="decrement('item413')">-</button>
+                        <span id="count413">1</span>
+                        <button id="incrementBtn413" onclick="increment('item413')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/1 981-2.png" alt="">
+            </div>
+
+            <div class="red-barhat">
+                <div class="container-414">
+                    <p>красный бархат</p>
+                    <div class="price-414">1100$</div>
+                    <div class="btn-414" id="butn-414" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter414" class="counter">
+                        <button id="decrementBtn414" onclick="decrement('item414')">-</button>
+                        <span id="count414">1</span>
+                        <button id="incrementBtn414" onclick="increment('item414')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/1 981-3.png" alt="">
+            </div>
+
+            <div class="cheesecake-ny-2">
+                <div class="container-415">
+                    <p>чизкейк нью-йорк</p>
+                    <div class="price-415">1050$</div>
+                    <div class="btn-415" id="butn-415" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter415" class="counter">
+                        <button id="decrementBtn415" onclick="decrement('item415')">-</button>
+                        <span id="count415">1</span>
+                        <button id="incrementBtn415" onclick="increment('item415')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/1 981-4.png" alt="">
+            </div>
+
+            <div class="tiramisu">
+                <div class="container-416">
+                    <p>тирамису</p>
+                    <div class="price-416">1300$</div>
+                    <div class="btn-416" id="butn-416" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter416" class="counter">
+                        <button id="decrementBtn416" onclick="decrement('item416')">-</button>
+                        <span id="count416">1</span>
+                        <button id="incrementBtn416" onclick="increment('item416')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/1 981-5.png" alt="">
+            </div>
+
+        </div>
+
+        <!-----------------------------------------------------------SECTION 5------------------------------------------->
+        <div class="drink-menu">
+
+            <div class="ice-coffee">
+                <div class="container-51">
+                    <p>ice cofee</p>
+                    <div class="description-51">350 ml</div>
+                    <div class="price-51">950$</div>
+                    <div class="btn-51" id="butn-51" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter51" class="counter">
+                        <button id="decrementBtn51" onclick="decrement('item51')">-</button>
+                        <span id="count51">1</span>
+                        <button id="incrementBtn51" onclick="increment('item51')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 11.png" alt="">
+            </div>
+
+            <div class="latte">
+                <div class="container-52">
+                    <p>латте</p>
+                    <div class="description-52">350 ml</div>
+                    <div class="price-52">750$</div>
+                    <div class="btn-52" id="butn-52" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter52" class="counter">
+                        <button id="decrementBtn52" onclick="decrement('item52')">-</button>
+                        <span id="count52">1</span>
+                        <button id="incrementBtn52" onclick="increment('item52')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1.png" alt="">
+            </div>
+
+            <div class="moccachino">
+                <div class="container-53">
+                    <p>мокаччино</p>
+                    <div class="description-53">350 ml</div>
+                    <div class="price-53">1150$</div>
+                    <div class="btn-53" id="butn-53" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter53" class="counter">
+                        <button id="decrementBtn53" onclick="decrement('item53')">-</button>
+                        <span id="count53">1</span>
+                        <button id="incrementBtn53" onclick="increment('item53')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-2.png" alt="">
+            </div>
+
+            <div class="bumble">
+                <div class="container-54">
+                    <p>bumble</p>
+                    <div class="description-54">200 ml</div>
+                    <div class="price-54">1200$</div>
+                    <div class="btn-54" id="butn-54" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter54" class="counter">
+                        <button id="decrementBtn54" onclick="decrement('item54')">-</button>
+                        <span id="count54">1</span>
+                        <button id="incrementBtn54" onclick="increment('item54')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-3.png" alt="">
+            </div>
+
+            <div class="capuchino">
+                <div class="container-55">
+                    <p>капуччино</p>
+                    <div class="description-55">350 ml</div>
+                    <div class="price-55">750$</div>
+                    <div class="btn-55" id="butn-55" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter55" class="counter">
+                        <button id="decrementBtn55" onclick="decrement('item55')">-</button>
+                        <span id="count55">1</span>
+                        <button id="incrementBtn55" onclick="increment('item55')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-4.png" alt="">
+            </div>
+
+            <div class="americano">
+                <div class="container-56">
+                    <p>американо</p>
+                    <div class="description-56">350 ml</div>
+                    <div class="price-56">550$</div>
+                    <div class="btn-56" id="butn-56" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter56" class="counter">
+                        <button id="decrementBtn56" onclick="decrement('item56')">-</button>
+                        <span id="count56">1</span>
+                        <button id="incrementBtn56" onclick="increment('item56')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-5.png" alt="">
+            </div>
+
+            <div class="expresso">
+                <div class="container-57">
+                    <p>эспрессо x2</p>
+                    <div class="description-57">30 ml</div>
+                    <div class="price-57">450$</div>
+                    <div class="btn-57" id="butn-57" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter57" class="counter">
+                        <button id="decrementBtn57" onclick="decrement('item57')">-</button>
+                        <span id="count57">1</span>
+                        <button id="incrementBtn57" onclick="increment('item57')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-6.png" alt="">
+            </div>
+
+            <div class="cacao">
+                <div class="container-58">
+                    <p>гор. шоколад</p>
+                    <div class="description-58">350 ml</div>
+                    <div class="price-58">850$</div>
+                    <div class="btn-58" id="butn-58" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter58" class="counter">
+                        <button id="decrementBtn58" onclick="decrement('item58')">-</button>
+                        <span id="count58">1</span>
+                        <button id="incrementBtn58" onclick="increment('item58')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-7.png" alt="">
+            </div>
+
+            <div class="frappuchino">
+                <div class="container-59">
+                    <p>фрапуччино</p>
+                    <div class="description-59">350 ml</div>
+                    <div class="price-59">1050$</div>
+                    <div class="btn-59" id="butn-59" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter59" class="counter">
+                        <button id="decrementBtn59" onclick="decrement('item59')">-</button>
+                        <span id="count59">1</span>
+                        <button id="incrementBtn59" onclick="increment('item59')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-8.png" alt="">
+            </div>
+
+            <div class="glasse">
+                <div class="container-510">
+                    <p>гляссе</p>
+                    <div class="description-510">350 ml</div>
+                    <div class="price-510">750$</div>
+                    <div class="btn-510" id="butn-510" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter510" class="counter">
+                        <button id="decrementBtn510" onclick="decrement('item510')">-</button>
+                        <span id="count510">1</span>
+                        <button id="incrementBtn510" onclick="increment('item510')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/022 1-9.png" alt="">
+            </div>
+
+            <div class="milkshake-1">
+                <div class="container-511">
+                    <p>милкшейк</p>
+                    <div class="description-511">Ваниль</div>
+                    <div class="price-511">1190$</div>
+                    <div class="btn-511" id="butn-511" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter511" class="counter">
+                        <button id="decrementBtn511" onclick="decrement('item511')">-</button>
+                        <span id="count511">1</span>
+                        <button id="incrementBtn511" onclick="increment('item511')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/231 1.png" alt="">
+            </div>
+
+            <div class="milkshake-2">
+                <div class="container-512">
+                    <p>милкшейк</p>
+                    <div class="description-512">Шоколад</div>
+                    <div class="price-512">1190$</div>
+                    <div class="btn-512" id="butn-512" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter512" class="counter">
+                        <button id="decrementBtn512" onclick="decrement('item512')">-</button>
+                        <span id="count512">1</span>
+                        <button id="incrementBtn512" onclick="increment('item512')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/232-removebg-preview 1.png" alt="">
+            </div>
+
+            <div class="milkshake-3">
+                <div class="container-513">
+                    <p>милкшейк</p>
+                    <div class="description-513">Банан</div>
+                    <div class="price-513">1190$</div>
+                    <div class="btn-513" id="butn-513" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter513" class="counter">
+                        <button id="decrementBtn513" onclick="decrement('item513')">-</button>
+                        <span id="count513">1</span>
+                        <button id="incrementBtn513" onclick="increment('item513')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/233-removebg-preview 1.png" alt="">
+            </div>
+
+            <div class="milkshake-4">
+                <div class="container-514">
+                    <p>милкшейк</p>
+                    <div class="description-514">Клубника</div>
+                    <div class="price-514">1190$</div>
+                    <div class="btn-514" id="butn-514" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter514" class="counter">
+                        <button id="decrementBtn514" onclick="decrement('item514')">-</button>
+                        <span id="count514">1</span>
+                        <button id="incrementBtn514" onclick="increment('item514')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/Group 8.png" alt="">
+            </div>
+
+            <div class="smoothie-1">
+                <div class="container-515">
+                    <p>смузи</p>
+                    <div class="description-515">Банан-клубника</div>
+                    <div class="price-515">1290$</div>
+                    <div class="btn-515" id="butn-515" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter515" class="counter">
+                        <button id="decrementBtn515" onclick="decrement('item515')">-</button>
+                        <span id="count515">1</span>
+                        <button id="incrementBtn515" onclick="increment('item515')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/234-removebg-preview 1.png" alt="">
+            </div>
+
+            <div class="smoothie-2">
+                <div class="container-516">
+                    <p>смузи</p>
+                    <div class="description-516">Киви-огурец-шпинат</div>
+                    <div class="price-516">1290$</div>
+                    <div class="btn-516" id="butn-516" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter516" class="counter">
+                        <button id="decrementBtn516" onclick="decrement('item516')">-</button>
+                        <span id="count516">1</span>
+                        <button id="incrementBtn516" onclick="increment('item516')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/235-removebg-preview 1.png" alt="">
+            </div>
+
+        </div>
+
+        <!-----------------------------------------------------------SECTION 6------------------------------------------->
+        <div class="croissant-menu">
+
+            <div class="with-turkey">
+                <div class="container-61">
+                    <p>С индейкой</p>
+                    <div class="price-61">990$</div>
+                    <div class="btn-61" id="butn-61" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter61" class="counter">
+                        <button id="decrementBtn61" onclick="decrement('item61')">-</button>
+                        <span id="count61">1</span>
+                        <button id="incrementBtn61" onclick="increment('item61')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-61.png" alt="">
+            </div>
+
+            <div class="with-salmon">
+                <div class="container-62">
+                    <p>с лососем</p>
+                    <div class="price-62">1090$</div>
+                    <div class="btn-62" id="butn-62" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter62" class="counter">
+                        <button id="decrementBtn62" onclick="decrement('item62')">-</button>
+                        <span id="count62">1</span>
+                        <button id="incrementBtn62" onclick="increment('item62')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-62.png" alt="">
+            </div>
+
+            <div class="clasic-croissant">
+                <div class="container-63">
+                    <p>Классический</p>
+                    <div class="price-63">690$</div>
+                    <div class="btn-63" id="butn-63" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter63" class="counter">
+                        <button id="decrementBtn63" onclick="decrement('item63')">-</button>
+                        <span id="count63">1</span>
+                        <button id="incrementBtn63" onclick="increment('item63')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-63.png" alt="">
+            </div>
+
+            <div class="chocolate-croissant">
+                <div class="container-64">
+                    <p>шоколадный</p>
+                    <div class="price-64">790$</div>
+                    <div class="btn-64" id="butn-64" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter64" class="counter">
+                        <button id="decrementBtn64" onclick="decrement('item64')">-</button>
+                        <span id="count64">1</span>
+                        <button id="incrementBtn64" onclick="increment('item64')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-64.png" alt="">
+            </div>
+
+            <div class="with-cheese">
+                <div class="container-65">
+                    <p>с сыром</p>
+                    <div class="price-65">790$</div>
+                    <div class="btn-65" id="butn-65" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter65" class="counter">
+                        <button id="decrementBtn65" onclick="decrement('item65')">-</button>
+                        <span id="count65">1</span>
+                        <button id="incrementBtn65" onclick="increment('item65')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-65.png" alt="">
+            </div>
+
+            <div class="with-cream">
+                <div class="container-66">
+                    <p>дениш с кремом</p>
+                    <div class="price-66">600$</div>
+                    <div class="btn-66" id="butn-66" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter66" class="counter">
+                        <button id="decrementBtn66" onclick="decrement('item66')">-</button>
+                        <span id="count66">1</span>
+                        <button id="incrementBtn66" onclick="increment('item66')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-66.png" alt="">
+            </div>
+
+            <div class="with-izum">
+                <div class="container-67">
+                    <p>улитка с изюмом</p>
+                    <div class="price-67">600$</div>
+                    <div class="btn-67" id="butn-67" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter67" class="counter">
+                        <button id="decrementBtn67" onclick="decrement('item67')">-</button>
+                        <span id="count67">1</span>
+                        <button id="incrementBtn67" onclick="increment('item67')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-67.png" alt="">
+            </div>
+
+            <div class="with-mak">
+                <div class="container-68">
+                    <p>Улитка с маком</p>
+                    <div class="price-68">600$</div>
+                    <div class="btn-68" id="butn-68" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter68" class="counter">
+                        <button id="decrementBtn68" onclick="decrement('item68')">-</button>
+                        <span id="count68">1</span>
+                        <button id="incrementBtn68" onclick="increment('item68')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/чимни-дог-68.png" alt="">
+            </div>
+        </div>
+
+        <!-----------------------------------------------------------SECTION 7------------------------------------------->
+        <div class="breakfast-menu">
+
+            <div class="american">
+                <div class="container-71">
+                    <p>Американский</p>
+                    <div class="description-71">
+                        2 сосиски, яйцо скрамбл, кусочки багета, помидоры, томатный соус, салат свежий, кофе на выбор
+                    </div>
+                    <div class="price-71">2600$</div>
+                    <div class="btn-71" id="butn-71" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter71" class="counter">
+                        <button id="decrementBtn71" onclick="decrement('item71')">-</button>
+                        <span id="count71">1</span>
+                        <button id="incrementBtn71" onclick="increment('item71')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/22.png" alt="">
+            </div>
+
+            <div class="israil">
+                <div class="container-72">
+                    <p>Израильский</p>
+                    <div class="description-72">
+                        Шакшука, сырный трдельник, кофе на выбор
+                    </div>
+                    <div class="price-72">2400$</div>
+                    <div class="btn-72" id="butn-72" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter72" class="counter">
+                        <button id="decrementBtn72" onclick="decrement('item72')">-</button>
+                        <span id="count72">1</span>
+                        <button id="incrementBtn72" onclick="increment('item72')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/222.png" alt="">
+            </div>
+
+            <div class="continental">
+                <div class="container-73">
+                    <p>Континентальный</p>
+                    <div class="description-73">
+                        Индейка, яичница, кусочки багета, сливочный соус, салат Lollo Rossa, кофе на выбор
+                    </div>
+                    <div class="price-73">2400$</div>
+                    <div class="btn-73" id="butn-73" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter73" class="counter">
+                        <button id="decrementBtn73" onclick="decrement('item73')">-</button>
+                        <span id="count73">1</span>
+                        <button id="incrementBtn73" onclick="increment('item73')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/221.png" alt="">
+            </div>
+
+            <div class="russian">
+                <div class="container-74">
+                    <p>Русский</p>
+                    <div class="description-74">
+                        Каша на выбор (манная, кукурузная, рисовая), орешки, сырники, кофе на выбор
+                    </div>
+                    <div class="price-74">2000$</div>
+                    <div class="btn-74" id="butn-74" onmouseover="buttonHover(this)" onclick="buttonClick(this)">
+                        Купить
+                    </div>
+                    <div id="counter74" class="counter">
+                        <button id="decrementBtn74" onclick="decrement('item74')">-</button>
+                        <span id="count74">1</span>
+                        <button id="incrementBtn74" onclick="increment('item74')">+</button>
+                    </div>
+                </div>
+                <img src="../ice-cream/images/223.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------CATALOG ENDS--------------->
+    <!-------------CONSTRUCTOR STARTS--------------->
+    <div id="constructor" class="constructor">
+        <div class="constructor-title">
+            Собери свой трдельник
+        </div>
+
+        <div class="constructor-pages">
+            <!----------------------------------------------- PAGE-1 -------------------------------------------------------->
+            <div id="con-1" class="constructor-page-1">
+                <div class="title-1">
+                    <div class="intro-1">Шаг 1/ 7.</div><div class="intro-2"> Выбери трдельник</div>
+                </div>
+                <div class="page-1-images" >
+                    <div class="page-1-image-1" onclick="teleportToPage2(event)">
+                        <img src="../ice-cream/images/traditional.png" alt="">
+                        <p>Традиционый - конус</p>
+                        <div class="price-image-1">600$</div>
+                    </div>
+                    <div class="page-1-image-2" onclick="teleportToPage2(event)">
+                        <img src="../ice-cream/images/с-сахаром-и-корицей.png" alt="">
+                        <p>с сахаром и корицей</p>
+                        <div class="price-image-2">650$</div>
+                    </div>
+                </div>
+                <div class="podtitile-1">
+                    <img src="../ice-cream/images/click 1.png" alt="">
+                    <p>Нажми на трдельник, который тебе нравится, и собери все ингредиенты на свой вкус.</p>
+                </div>
+            </div>
+            <!----------------------------------------------- PAGE-2 -------------------------------------------------------->
+            <div id="con-2" class="constructor-page-2">
+                <div class="title-2">
+                    <div class="intro-21">Шаг 2/ 7.</div><div class="intro-22">Выбери, чем помазать трдельник изнутри</div>
+                </div>
+                <div class="page-2-title">
+                    <div class="intr-1">Помазка на стенки изнутри</div><div class="intr-2">100$</div>
+                </div>
+                <div class="page-2-images">
+                    <div class="page-2-image-1" onclick="teleportToPage3(event)">
+                        <img src="../ice-cream/images/image 21.png" alt="">
+                        <p>нутелла</p>
+                    </div>
+                    <div class="page-2-image-2" onclick="teleportToPage3(event)">
+                        <img src="../ice-cream/images/image 18.png" alt="">
+                        <p>бел.шоколад</p>
+                    </div>
+                    <div class="page-2-image-3" onclick="teleportToPage3(event)">
+                        <img src="../ice-cream/images/image 19.png" alt="">
+                        <p>карамель</p>
+                    </div>
+                    <div class="page-2-image-4" onclick="teleportToPage3(event)">
+                        <img src="../ice-cream/images/image 20.png" alt="">
+                        <p>арах. паста</p>
+                    </div>
+                </div>
+                <div class="back-2" onclick="teleportToPage1FromPage2()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-2-btn">
+                    <div class="text" onclick="teleportToPage3FromPage2(event)">
+                        Пропустить шаг
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------- PAGE-3 -------------------------------------------------------->
+            <div id="con-3" class="constructor-page-3">
+                <div class="title-3">
+                    <div class="intro-31">Шаг 3/ 7.</div><div class="intro-32">Выбери посыпку</div>
+                </div>
+                <div class="page-3-title">
+                    <div class="intr-31">Посыпка</div><div class="intr-32">100$</div>
+                </div>
+                <div class="page-3-images">
+                    <div class="page-3-image-1" onclick="teleportToPage4(event)">
+                        <img src="../ice-cream/images/image 8.png" alt="">
+                        <p>oreo</p>
+                    </div>
+                    <div class="page-3-image-2" onclick="teleportToPage4(event)">
+                        <img src="../ice-cream/images/image 11.png" alt="">
+                        <p>арахис</p>
+                    </div>
+                    <div class="page-3-image-3" onclick="teleportToPage4(event)">
+                        <img src="../ice-cream/images/image 12.png" alt="">
+                        <p>корица</p>
+                    </div>
+                    <div class="page-3-image-4" onclick="teleportToPage4(event)">
+                        <img src="../ice-cream/images/image 13.png" alt="">
+                        <p>грецкий орех</p>
+                    </div>
+                    <div class="page-3-image-5" onclick="teleportToPage4(event)">
+                        <img src="../ice-cream/images/image 14.png" alt="">
+                        <p>кокос</p>
+                    </div>
+                    <div class="page-3-image-6" onclick="teleportToPage4(event)">
+                        <img src="../ice-cream/images/image 16.png" alt="">
+                        <p>миндаль</p>
+                    </div>
+                </div>
+                <div class="back-3" onclick="teleportToPage2FromPage3()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-3-btn">
+                    <div class="text-3" onclick="teleportToPage4FromPage3(event)">
+                        Пропустить шаг
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------- PAGE-4 -------------------------------------------------------->
+            <div id="con-4" class="constructor-page-4">
+                <div class="title-4">
+                    <div class="intro-41">Шаг 4/ 7.</div><div class="intro-42">Выбери фрукты в начинку</div>
+                </div>
+                <div class="page-4-title">
+                    <div class="intr-41">Начинки</div>
+                </div>
+                <div class="page-4-images">
+                    <swiper-container class="mySwiper" navigation="true">
+                        <swiper-slide>
+                            <div class="page-4-image-1" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 184.png" alt="">
+                                <p>банан</p>
+                                <div class="price-image-1">400$</div>
+                            </div>
+                            <div class="page-4-image-2" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 194.png" alt="">
+                                <p>киви</p>
+                                <div class="price-image-2">400$</div>
+                            </div>
+                            <div class="page-4-image-3" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 204.png" alt="">
+                                <p>ананас</p>
+                                <div class="price-image-3">550$</div>
+                            </div>
+                            <div class="page-4-image-4" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 214.png" alt="">
+                                <p>апельсин</p>
+                                <div class="price-image-4">450$</div>
+                            </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="page-4-image-5" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 22.png" alt="">
+                                <p>яблоко</p>
+                                <div class="price-image-5">350$</div>
+                            </div>
+                            <div class="page-4-image-6" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 23.png" alt="">
+                                <p>ягоды</p>
+                                <div class="price-image-6">650$</div>
+                            </div>
+                            <div class="page-4-image-7" onclick="teleportToPage5(event)">
+                                <img src="../ice-cream/images/image 23-2.png" alt="">
+                                <p>манго</p>
+                                <div class="price-image-7">650$</div>
+                            </div>
+                        </swiper-slide>
+                      </swiper-container>
+                    
+                      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+                    
+                </div>
+                <div class="back-4" onclick="teleportToPage3FromPage4()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-4-btn">
+                    <div class="text-4" onclick="teleportToPage5FromPage4(event)">
+                        Пропустить шаг
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------- PAGE-5 -------------------------------------------------------->
+            <div id="con-5" class="constructor-page-5">
+                <div class="title-5">
+                    <div class="intro-51">Шаг 5/ 7.</div><div class="intro-52">Теперь самое важное. Выберите вкус мороженого</div>
+                </div>
+                <div class="page-5-title">
+                    <div class="intr-51">Мороженое</div><div class="intr-52">390$</div>
+                </div>
+                <div class="page-5-images">
+                    <div class="page-5-image-1" onclick="teleportToPage6(event)">
+                        <img src="../ice-cream/images/image 21-1.png" alt="">
+                        <p>сливочное</p>
+                    </div>
+                    <div class="page-5-image-2" onclick="teleportToPage6(event)">
+                        <img src="../ice-cream/images/image 21-2.png" alt="">
+                        <p>шоколадное</p>
+                    </div>
+                    <div class="page-5-image-3" onclick="teleportToPage6(event)">
+                        <img src="../ice-cream/images/image 21-3.png" alt="">
+                        <p>смешанное</p>
+                    </div>
+                    <div class="page-5-image-4" onclick="teleportToPage6(event)">
+                        <img src="../ice-cream/images/image 21-4.png" alt="">
+                        <p>взбитые сливки</p>
+                    </div>
+                </div>
+                <div class="back-5" onclick="teleportToPage4FromPage5()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-5-btn">
+                    <div class="text-5" onclick="teleportToPage6FromPage5()">
+                        Пропустить шаг
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------- PAGE-6 -------------------------------------------------------->
+            <div id="con-6" class="constructor-page-6">
+                <div class="title-6">
+                    <div class="intro-61">Шаг 6/ 7.</div><div class="intro-62">Выбери топпинг, чем полить трдельник</div>
+                </div>
+                <div class="page-6-title">
+                    <div class="intr-61">Топпинг</div><div class="intr-62">50$</div>
+                </div>
+                <div class="page-6-images">
+                    <div class="page-6-image-1" onclick="teleportToPage7(event)">
+                        <img src="../ice-cream/images/41.png" alt="">
+                        <p>банан</p>
+                    </div>
+                    <div class="page-6-image-2" onclick="teleportToPage7(event)">
+                        <img src="../ice-cream/images/42.png" alt="">
+                        <p>шоколад</p>
+                    </div>
+                    <div class="page-6-image-3" onclick="teleportToPage7(event)">
+                        <img src="../ice-cream/images/43.png" alt="">
+                        <p>ягоды</p>
+                    </div>
+                    <div class="page-6-image-4" onclick="teleportToPage7(event)">
+                        <img src="../ice-cream/images/44.png" alt="">
+                        <p>карамель</p>
+                    </div>
+                </div>
+                <div class="back-6" onclick="teleportToPage5FromPage6()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-6-btn">
+                    <div class="text-6" onclick="teleportToPage7FromPage6()">
+                        Пропустить шаг
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------- PAGE-7 -------------------------------------------------------->
+            <div id="con-7" class="constructor-page-7">
+                <div class="title-7">
+                    <div class="intro-71">Шаг 7/ 7.</div><div class="intro-72">Практически все) Выбери украшения для трдельника</div>
+                </div>
+                <div class="page-7-title">
+                    <div class="intr-71">Украшения</div><div class="intr-72">390$</div>
+                </div>
+                <div class="page-7-images">
+                    <div class="page-7-image-1">
+                        <img src="../ice-cream/images/71.png" alt="">
+                        <p>snickers</p>
+                    </div>
+                    <div class="page-7-image-2">
+                        <img src="../ice-cream/images/72.png" alt="">
+                        <p>rafaello</p>
+                    </div>
+                    <div class="page-7-image-3">
+                        <img src="../ice-cream/images/73.png" alt="">
+                        <p>oreo</p>
+                    </div>
+                </div>
+                <div class="back-7" onclick="teleportToPage6FromPage7()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-7-btn">
+                    <div class="text-7" onclick="teleportToSuccess(event)">
+                        всё!
+                    </div>
+                </div>
+            </div>
+
+            <div id="con-8" class="check-your-order">
+                <!-- <img src="../ice-cream/images/close.png" class="close-button" onclick="closeCheckOrder()"> -->
+                <div class="check-title">
+                    Проверь свой заказ
+                </div>
+                <div class="check-container">
+                    <div class="check">
+                        <div id="item-details">
+                            <!-- Item details will be displayed here -->
+                        </div>
+                        <div id="total-price">
+                            Total Price: 0 $
+                        </div>
+                    </div>
+                    <div class="check-place">
+                        <div class="otkuda">Выбери откуда сможешь забрать свой заказ</div>
+                        <div class="check-place-hour">
+                            <img src="../ice-cream/images/clock 1.png" alt="">
+                            <p>Режим работы 10:00 - 22:00</p>
+                        </div>
+                        
+                        <div class="input-1">
+                            <INPUT TYPE="radio" NAME="bev" VALUE="check-place-1" id="input-1" class="input">
+                                <div class="check-place-1">
+                                    <div class="place-011">Кабанбай батыра 58а,</div>
+                                    <div class="place-012">корпус 1 (ЖК EXPO Boulevard-6)</div>
+                                </div>
+                            <BR>
+                        </div>
+                        <div class="input-2">
+                            <INPUT TYPE="radio" NAME="bev" VALUE="check-place-2" id="input-2" class="input">
+                                <div class="check-place-2">
+                                    <div class="place-021">Агыбай батыра 4</div>
+                                    <div class="place-022">(возле набережной)</div>    
+                                </div>
+                            <BR>
+                        </div>
+                    </div>
+                </div>
+                <div class="back-8" onclick="teleportToPage7FromPage8()">
+                    <-  ШАГ НАЗАД
+                </div>
+                <div class="page-8-btn">
+                    <div class="text-8" onclick="teleportToPage9(event)">
+                        отправить заказ
+                    </div>
+                </div>
+            </div>
+
+            <div id="con-9" class="enter-info">
+                <!-- <img src="../ice-cream/images/cancel 1.png" class="close-button-2" onclick="closeInfo()"> -->
+                <div class="enter-info-title">
+                    Заполните данные
+                </div>
+                <div class="cont">
+                    <div class="enter-info-container">
+                        <div class="name">
+                            <p>Ваше Имя</p>
+                            <input type="text" placeholder="Ваше Имя" class="input-1">
+                        </div>
+                        <div class="phone">
+                            <p>Ваш номер телефона</p>
+                            <input type="tel" placeholder="8 (700) 123 4567" class="input-2">
+                        </div>
+                        <div class="page-9-btn">
+                            <div class="text-9" onclick="teleportToPage10(event)">
+                                отправить
+                            </div>
+                        </div>
+                    </div>
+                    <img src="../ice-cream/images/girl-register.png" class="img">
+                </div>
+                
+            </div>
+
+            <div id="con-10" class="success">
+                <div class="success-title-1">
+                    Заказ успешно оформлен
+                </div>
+                <div class="success-title-2">
+                    <div class="podtitle-11">Спасибо за заказ) Мы будем</div>
+                    <div class="podtitle-21">Вас ждать у нас</div>
+                </div>
+                <div class="success-image">
+                    <img src="../ice-cream/images/man-w-bckrnd.png">
+                </div>
+                <div class="success-btn" onclick="refreshPage()">
+                    <button><p>Закрыть</p></button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    <!-------------CONSTRUCTOR ENDS--------------->
+    <!-------------ABOUT US STARTS--------------->
+    <div class="about-trdelniki">
+        <img src="../ice-cream/images/о-трдельниках.png" alt="">
+    </div>
+    <!-------------ABOUT US ENDS--------------->
+    <!-------------LOCATION STARTS--------------->
+    <div class="location">
+        <div class="location-title">
+            Наше месторасположение
+        </div>
+        <div class="location-main">
+
+            <div class="map-1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68026.25581435267!2d71.37520208246684!3d51.11701676956404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585b22124ec6d%3A0x6dca5a6e0d28df53!2sEspresso%20Bar%20Expo%20Boulevard!5e0!3m2!1sru!2skz!4v1688012335875!5m2!1sru!2skz" width="716" height="359" style="border:16;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="map-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.58740503665!2d71.42358428772341!3d51.161563817301435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424586d274dbe76f%3A0xac665a118c0f8024!2z0YPQuy4g0JDQs9GL0LHQsNC5INCR0LDRgtGL0YDQsCA0LCDQkNGB0YLQsNC90LAgMDIwMDAw!5e0!3m2!1sru!2skz!4v1688012584240!5m2!1sru!2skz" width="716" height="359" style="border:16;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="places">
+                <div class="city-name">г. Астана</div>
+                <div class="place-1">
+                    <div class="container-1-1">
+                        <img src="../ice-cream/images/pin 1.png" alt="">
+                        <div id="place-1" class="place">Кабанбай батыра 58а,</div>
+                    </div>
+                    <div class="place-1-2">корпус 1 (ЖК EXPO Boulevard-6)</div>
+                </div>
+                <div class="place-2">
+                    <div class="container-2-2">
+                       <img src="../ice-cream/images/pin 2.png" alt="">
+                        <div id="place-2" class="place">Агыбай батыра 4</div>  
+                    </div>
+                    <div class="place-2-2">(возле набережной)</div>    
+                </div>
+                <div class="places-hour">
+                    <img src="../ice-cream/images/clock (1) 1.png" alt="">
+                    <p>10:00 - 22:00</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-------------LOCATION ENDS--------------->
+    <!-------------- FOOTER STARTS-------------->
+    <div id="contacts" class="footer">
+        <div class="footer-container">
+            <div class="logo">
+                <img src="../ice-cream/images/elics-logo.png" alt="">
+            </div>
+            <div class="contacts">
+                <div class="phone-number">
+                    <i class="fa-solid fa-phone" style="color: #123429;"></i><p>+ 7 (777) 121 2121</p>
+                    
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope" style="color: #123429;"></i><p>somemail@gmail.com</p>
+                    
+                </div>
+            </div>
+            <div class="social-medias">
+                <div class="social-media-title">
+                    Мы в соц сетях
+                </div>
+                <div class="social-media-logo">
+                    <i class="fa-brands fa-instagram" style="color: #123429;"></i>
+                    <i class="fa-brands fa-whatsapp" style="color: #123429;"></i>
+                    <i class="fa-brands fa-square-facebook" style="color: #123429;"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-title">
+            © eliks 2020
+        </div>
+    </div>
+    
+    <!-------------- FOOTER ENDS -------------->
+    <!-------------- CHECK YOUR ORDER STARTS-------------->
+        
+    <!-------------- SUCCESS ENDS-------------->
+    <!-- scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
